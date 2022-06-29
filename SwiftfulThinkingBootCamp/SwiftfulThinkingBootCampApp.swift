@@ -12,7 +12,9 @@ struct SwiftfulThinkingBootCampApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            DealingWithText()
+            //DealingWithText()
+            //DealingWithImage()
+            DealingwithButtons()
         }
     }
 }

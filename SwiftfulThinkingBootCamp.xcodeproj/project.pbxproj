@@ -13,6 +13,11 @@
 		890A20F828678358001A4E38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890A20F728678358001A4E38 /* Preview Assets.xcassets */; };
 		8961D207286C2FEA00DAA567 /* DealingWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D206286C2FEA00DAA567 /* DealingWithText.swift */; };
 		8961D20A286C3B2100DAA567 /* DealingWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D209286C3B2100DAA567 /* DealingWithImage.swift */; };
+		8961D20E286C42BA00DAA567 /* DealingwithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D20D286C42BA00DAA567 /* DealingwithButtons.swift */; };
+		8961D210286C430500DAA567 /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D20F286C430500DAA567 /* EditButtonView.swift */; };
+		8961D212286C431200DAA567 /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D211286C431200DAA567 /* PasteButtonView.swift */; };
+		8961D214286C432100DAA567 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D213286C432100DAA567 /* MenuButtonView.swift */; };
+		8961D216286C433700DAA567 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D215286C433700DAA567 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		890A20F728678358001A4E38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8961D206286C2FEA00DAA567 /* DealingWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealingWithText.swift; sourceTree = "<group>"; };
 		8961D209286C3B2100DAA567 /* DealingWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealingWithImage.swift; sourceTree = "<group>"; };
+		8961D20D286C42BA00DAA567 /* DealingwithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealingwithButtons.swift; sourceTree = "<group>"; };
+		8961D20F286C430500DAA567 /* EditButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonView.swift; sourceTree = "<group>"; };
+		8961D211286C431200DAA567 /* PasteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteButtonView.swift; sourceTree = "<group>"; };
+		8961D213286C432100DAA567 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		8961D215286C433700DAA567 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 		890A20EF28678355001A4E38 /* SwiftfulThinkingBootCamp */ = {
 			isa = PBXGroup;
 			children = (
+				8961D20C286C42A900DAA567 /* Buttons */,
 				8961D20B286C3B2700DAA567 /* Images */,
 				8961D208286C3B0900DAA567 /* Text */,
 				890A20F028678355001A4E38 /* SwiftfulThinkingBootCampApp.swift */,
@@ -87,6 +98,18 @@
 				8961D209286C3B2100DAA567 /* DealingWithImage.swift */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		8961D20C286C42A900DAA567 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8961D20D286C42BA00DAA567 /* DealingwithButtons.swift */,
+				8961D20F286C430500DAA567 /* EditButtonView.swift */,
+				8961D211286C431200DAA567 /* PasteButtonView.swift */,
+				8961D213286C432100DAA567 /* MenuButtonView.swift */,
+				8961D215286C433700DAA567 /* ButtonView.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8961D212286C431200DAA567 /* PasteButtonView.swift in Sources */,
+				8961D210286C430500DAA567 /* EditButtonView.swift in Sources */,
+				8961D20E286C42BA00DAA567 /* DealingwithButtons.swift in Sources */,
+				8961D214286C432100DAA567 /* MenuButtonView.swift in Sources */,
 				8961D20A286C3B2100DAA567 /* DealingWithImage.swift in Sources */,
 				8961D207286C2FEA00DAA567 /* DealingWithText.swift in Sources */,
 				890A20F328678355001A4E38 /* ContentView.swift in Sources */,
 				890A20F128678355001A4E38 /* SwiftfulThinkingBootCampApp.swift in Sources */,
+				8961D216286C433700DAA567 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
