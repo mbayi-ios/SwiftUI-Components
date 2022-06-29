@@ -20,11 +20,13 @@ struct ContentView: View {
                 Text("Item 1")
                 Divider().background(Color.black)
                 Text("HStack Item 2")
-                Divider()
-                    .background(Color.black)
-                Spacer()
                 Text("HStack Item 3")
             }
+            .frame(
+                maxWidth: .infinity,
+                maxHeight: .infinity,
+                alignment: .topLeading
+            )
             .background(Color.red)
             ZStack{
                 Text("ZStack Item 1")
