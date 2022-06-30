@@ -14,7 +14,8 @@ struct SwiftfulThinkingBootCampApp: App {
             //ContentView()
             //DealingWithText()
             //DealingWithImage()
-            DealingwithButtons()
+            //DealingwithButtons()
+            PickerContentView()
         }
     }
 }

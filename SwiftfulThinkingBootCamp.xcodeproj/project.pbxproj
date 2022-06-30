@@ -18,6 +18,8 @@
 		8961D212286C431200DAA567 /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D211286C431200DAA567 /* PasteButtonView.swift */; };
 		8961D214286C432100DAA567 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D213286C432100DAA567 /* MenuButtonView.swift */; };
 		8961D216286C433700DAA567 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961D215286C433700DAA567 /* ButtonView.swift */; };
+		89893298286D76AA00B9FC3B /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89893297286D76AA00B9FC3B /* Pickers.swift */; };
+		8989329A286D76E400B9FC3B /* PickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89893299286D76E400B9FC3B /* PickerContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		8961D211286C431200DAA567 /* PasteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteButtonView.swift; sourceTree = "<group>"; };
 		8961D213286C432100DAA567 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 		8961D215286C433700DAA567 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		89893297286D76AA00B9FC3B /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		89893299286D76E400B9FC3B /* PickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				8961D211286C431200DAA567 /* PasteButtonView.swift */,
 				8961D213286C432100DAA567 /* MenuButtonView.swift */,
 				8961D215286C433700DAA567 /* ButtonView.swift */,
+				89893297286D76AA00B9FC3B /* Pickers.swift */,
+				89893299286D76E400B9FC3B /* PickerContentView.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -187,10 +193,12 @@
 				8961D20E286C42BA00DAA567 /* DealingwithButtons.swift in Sources */,
 				8961D214286C432100DAA567 /* MenuButtonView.swift in Sources */,
 				8961D20A286C3B2100DAA567 /* DealingWithImage.swift in Sources */,
+				89893298286D76AA00B9FC3B /* Pickers.swift in Sources */,
 				8961D207286C2FEA00DAA567 /* DealingWithText.swift in Sources */,
 				890A20F328678355001A4E38 /* ContentView.swift in Sources */,
 				890A20F128678355001A4E38 /* SwiftfulThinkingBootCampApp.swift in Sources */,
 				8961D216286C433700DAA567 /* ButtonView.swift in Sources */,
+				8989329A286D76E400B9FC3B /* PickerContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
