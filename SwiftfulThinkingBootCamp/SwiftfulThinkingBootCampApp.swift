@@ -11,11 +11,11 @@ import SwiftUI
 struct SwiftfulThinkingBootCampApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
+            ContentView()
             //DealingWithText()
             //DealingWithImage()
             //DealingwithButtons()
-            PickerContentView()
+            //PickerContentView()
         }
     }
 }
